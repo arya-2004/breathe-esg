@@ -1,0 +1,10 @@
+employee_id,trip_type,booking_date,travel_date,origin,destination,distance_km,class_or_type,amount,currency,vendor
+EMP001,flight,2026-02-01,2026-02-10,DEL,BOM,1148,economy,8500,INR,IndiGo
+EMP002,flight,2026-02-03,2026-02-14,JFK,LHR,5540,business,185000,INR,British Airways
+EMP003,hotel,2026-02-05,2026-02-20,Mumbai,,3,standard,24000,INR,Taj Hotels
+EMP004,ground_transport,2026-02-07,2026-02-18,Bangalore Airport,Office,32,sedan,1800,INR,Uber
+EMP005,flight,2026-02-08,2026-02-22,DEL,XXX,,economy,9200,INR,Air India
+EMP006,ground_transport,2026-02-09,2026-02-25,Client Site,Hotel,-15,suv,2500,INR,Ola
+EMP007,hotel,2026-02-11,2026-02-28,Delhi,,-2,premium,18000,INR,Marriott
+EMP008,flight,2026/02/12,2026/03/01,SIN,BLR,3180,business,76000,INR,Singapore Airlines
+EMP009,flight,2026-02-15,2026-03-04,BOM,DEL,999999,economy,999999,INR,UnknownAir

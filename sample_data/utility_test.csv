@@ -1,0 +1,10 @@
+meter_id,facility_code,billing_start,billing_end,usage_value,usage_unit,tariff_type,total_cost,currency,provider
+MTR001,DEL_PLANT,2026-01-01,2026-01-31,15400,kWh,industrial,185000,INR,Tata Power
+MTR002,MUM_DC1,2026-01-15,2026-02-14,9800,kWh,commercial,132000,INR,Adani Electricity
+MTR003,BLR_OFFC,01/02/2026,28/02/2026,7200,KWH,commercial,88000,INR,BESCOM
+MTR004,HYD_PLT,2026/02/01,2026/02/27,15,MWh,industrial,210000,INR,Telangana Power
+MTR005,DEL_PLANT,2026-02-01,2026-02-28,-500,kWh,industrial,12000,INR,Tata Power
+MTR006,PUNE_WH1,2026-02-10,2026-03-09,0,kWh,warehouse,0,INR,MSEDCL
+MTR007,CHN_OFFC,2026-02-01,2026-02-30,4500,kWh,commercial,54000,INR,TANGEDCO
+MTR008,BLR_OFFC,2026-03-01,2026-03-31,999999,kWh,commercial,9999999,INR,BESCOM
+MTR009,HYD_PLT,2026-03-05,2026-04-04,6700,,industrial,94000,INR,Telangana Power
