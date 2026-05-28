@@ -10,7 +10,7 @@ DEBUG = not os.environ.get('PRODUCTION', False)
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'breathe-esg-backend-xg4d.onrender.com',
+    'breathe-esg-j9td.onrender.com',
 ]
 
 INSTALLED_APPS = [
@@ -79,6 +79,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
+    'https://breathe-esg-gamma-seven.vercel.app',
 ]
 
 REST_FRAMEWORK = {
@@ -107,5 +108,6 @@ CORS_EXPOSE_HEADERS = ['Content-Type', 'X-CSRFToken']
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
-    'https://breathe-esg-backend-xg4d.onrender.com',
+    'https://breathe-esg-j9td.onrender.com',
+    'https://breathe-esg-gamma-seven.vercel.app',
 ]
