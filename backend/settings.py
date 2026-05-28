@@ -80,6 +80,11 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
     'https://breathe-esg-gamma-seven.vercel.app',
+    'https://breathe-6x1z3xhz5-arya-2004s-projects.vercel.app',
+]
+
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://breathe-.*\.vercel\.app$",
 ]
 
 REST_FRAMEWORK = {
@@ -110,4 +115,5 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:5173',
     'https://breathe-esg-j9td.onrender.com',
     'https://breathe-esg-gamma-seven.vercel.app',
+    'https://breathe-6x1z3xhz5-arya-2004s-projects.vercel.app',
 ]
