@@ -95,21 +95,21 @@ function Upload() {
           title='SAP fuel & procurement'
           subtitle='Flat file CSV export'
           source='sap'
-          apiUrl='http://localhost:8000/api/upload/sap/'
+          apiUrl={`${import.meta.env.VITE_API_URL}/api/upload/sap/`}
           icon='🗂️'
         />
         <UploadCard
           title='Utility electricity'
           subtitle='Portal CSV export'
           source='utility'
-          apiUrl='http://localhost:8000/api/upload/utility/'
+          apiUrl={`${import.meta.env.VITE_API_URL}/api/upload/utility/`}
           icon='⚡'
         />
         <UploadCard
           title='Corporate travel'
           subtitle='Concur/Navan export'
           source='travel'
-          apiUrl='http://localhost:8000/api/upload/travel/'
+          apiUrl={`${import.meta.env.VITE_API_URL}/api/upload/travel/`}
           icon='✈️'
         />
       </div>

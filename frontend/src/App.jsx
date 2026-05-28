@@ -7,7 +7,7 @@ import Review from './pages/Review'
 
 // FIX: Axios global configuration initialization block
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [user, setUser] = useState(null)

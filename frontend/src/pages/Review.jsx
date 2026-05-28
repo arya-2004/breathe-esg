@@ -9,7 +9,7 @@ function Review({ record, onBack }) {
     console.log('cookies:', document.cookie)
     try {
       await axios.post(
-        `http://localhost:8000/api/records/${record.id}/${action}/`,
+        `${import.meta.env.VITE_API_URL}/api/records/${record.id}/${action}/`,
         {},
         { withCredentials: true }
       )
